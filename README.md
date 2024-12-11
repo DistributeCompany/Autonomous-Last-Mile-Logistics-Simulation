@@ -2,6 +2,16 @@
 
 This repository contains a base model implemented in Plant Simulation 16.1 for a Challenge-Based Learning course on discrete-event simulation. This model was used for the graduate course *Simulation* at the University of Twente in Fall 2024. It provides a framework for students to execute a simulation study focused on autonomous last-mile logistics systems.
 
+## Video Demonstration
+
+[![Benchmark Scenario Video](https://img.youtube.com/vi/your-video-id/0.jpg)](./videos/benchmark_scenario.mp4)
+
+> Click the image above to watch a video demonstration of the **Benchmark Scenario** (250x speed).
+
+[![Decoupling Scenario Video](https://img.youtube.com/vi/your-video-id/0.jpg)](./videos/decoupling_scenario.mp4)
+
+> Click the image above to watch a video demonstration of the **Decoupling Scenario** (250x speed).
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Simulation Goal](#simulation-goal)
