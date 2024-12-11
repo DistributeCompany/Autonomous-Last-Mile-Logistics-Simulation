@@ -4,7 +4,7 @@ This repository contains a base model implemented in Plant Simulation 16.1 for a
 
 ## Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bb3ENU9rbBU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Benchmark Scenario Video](.videos/benchmark_scenario.png)](https://www.youtube.com/watch?v=Bb3ENU9rbBU)
 
 > Click the image above to watch a video demonstration of the **Benchmark Scenario** (250x speed).
 
