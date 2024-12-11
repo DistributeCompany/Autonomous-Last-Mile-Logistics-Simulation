@@ -17,8 +17,8 @@ This repository contains a base model implemented in Plant Simulation 16.1 for a
 
 This repository provides the base model for conducting a simulation study of autonomous last-mile logistics systems. Instructors can use this model as part of a final assignment. For access to the 'teacher' version of the base model, please contact:
 
-- **B. Gerrits** - [b.gerrits@utwente.nl](mailto:b.gerrits@utwente.nl)
-- **M. R. K. Mes** - [m.r.k.mes@utwente.nl](mailto:m.r.k.mes@utwente.nl)
+- **Berry Gerrits** - [b.gerrits@utwente.nl](mailto:b.gerrits@utwente.nl)
+- **Martijn Mes** - [m.r.k.mes@utwente.nl](mailto:m.r.k.mes@utwente.nl)
 
 ## Simulation Goal
 
@@ -42,33 +42,32 @@ The base model lacks scheduling/dispatching logic, which must be implemented as 
 The model is structured into several frames and objects, including:
 
 #### Frames
-- **Campus**: Main physical layout of the campus with event controllers.
+- **Campus**: Main physical layout of the campus with the event controller.
 - **Inputs**: Input parameters and experimental factors.
 - **Outputs**: Simulation outputs with placeholder tables.
 - **Methods**: Centralized methods for simulation logic.
-- **DecouplingPoint**: Models the decoupling point for parcel unloading.
-- **Destination**: Represents delivery destinations on campus.
+- **DecouplingPoint**: Models the decoupling point.
+- **Destination**: Represents delivery destinations on campus (i.e., customers).
 - **Model**: Empty frame for customization.
 
 #### Objects
-- **RoadMarker**: Defines vehicle paths.
+- **RoadMarker**: Defines vehicle paths. That is, vehicles drive from Marker to Marker. 
 - **Parcel**: Represents e-commerce parcels with attributes like delivery status and time windows.
-- **DeliveryModePool**: Origin of vehicles, with separate pools for vans and autonomous vehicles.
+- **DeliveryModePool**: Origin of vehicles, with separate pools for specific autonomous vehicles.
 
 ### Autonomous Vehicles
 
 The following autonomous vehicles are available for last-mile delivery:
-- **MobileParcelLocker**: Carries up to 24 parcels.
-- **StreetRobot**: Carries one parcel.
-- **QuadcopterNoHoist**: Drone for single-parcel delivery.
-- **QuadcopterWithHoist**: Drone with hoist system for delivery while hovering.
+- **MobileParcelLocker**: Unmanned Ground Vehicle. Carries up to 24 parcels.
+- **StreetRobot**: Unmanned Ground Vehicle. Carries one parcel.
+- **QuadcopterNoHoist**: Unmanned Aerial Vehicle. Carries one parcel. Had to land for delivery.
+- **QuadcopterWithHoist**: Unmanned Aerial Vehicle. Carries one parcel, and is equipped with a hoist system for delivery while hovering.
 
 ### Simulation Rules
 
 - Each simulation represents one day (09:00 to midnight).
 - Parcels have specific delivery windows.
-- Delivery success depends on vehicle and scenario configurations.
-- Battery management for autonomous vehicles is included.
+- Basic battery management is included, but may result in depletion of the battery during delivery!
 
 ## General Remarks
 
@@ -78,5 +77,5 @@ The following autonomous vehicles are available for last-mile delivery:
 ## Contact Information
 
 For additional details see the Word document in this repository. For further inquiries:
-- **B. Gerrits**: [b.gerrits@utwente.nl](mailto:b.gerrits@utwente.nl)
-- **M. R. K. Mes**: [m.r.k.mes@utwente.nl](mailto:m.r.k.mes@utwente.nl)
+- **Berry Gerrits**: [b.gerrits@utwente.nl](mailto:b.gerrits@utwente.nl)
+- **Martijn Mes**: [m.r.k.mes@utwente.nl](mailto:m.r.k.mes@utwente.nl)
