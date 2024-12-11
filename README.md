@@ -62,9 +62,9 @@ The model is structured into several frames and objects, including:
 - **Parcel**: Represents e-commerce parcels with attributes like delivery status and time windows.
 - **DeliveryModePool**: Origin of vehicles, with separate pools for specific autonomous vehicles.
 
-### Autonomous Vehicles
+### [Autonomous Vehicles](https://utwente.slite.com/app/docs/kG79FIs0TIYY7L)
 
-The following autonomous vehicles are available for last-mile delivery:
+The following autonomous vehicles are available for last-mile delivery: (see link for a Wiki on Autonomous Vehicles for Logistics)
 - **MobileParcelLocker**: Unmanned Ground Vehicle. Carries up to 24 parcels.
 - **StreetRobot**: Unmanned Ground Vehicle. Carries one parcel.
 - **QuadcopterNoHoist**: Unmanned Aerial Vehicle. Carries one parcel. Had to land for delivery.
@@ -86,3 +86,9 @@ The following autonomous vehicles are available for last-mile delivery:
 For additional details see the Word document in this repository. For further inquiries:
 - **Berry Gerrits**: [b.gerrits@utwente.nl](mailto:b.gerrits@utwente.nl)
 - **Martijn Mes**: [m.r.k.mes@utwente.nl](mailto:m.r.k.mes@utwente.nl)
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
