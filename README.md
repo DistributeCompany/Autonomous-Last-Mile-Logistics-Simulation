@@ -4,9 +4,9 @@ This repository contains a base model implemented in Plant Simulation 16.1 for a
 
 ## Video Demonstration
 
-[![Benchmark Scenario Video](videos/benchmark_scenario.png)](https://www.youtube.com/watch?v=Bb3ENU9rbBU)
+[![Decoupling Scenario Video](videos/benchmark_scenario.png)](https://www.youtube.com/watch?v=qy9L3dXS74k)
 
-> Click the image above to watch a video demonstration of the **Benchmark Scenario** (250x speed).
+> Click the image above to watch a video demonstration of the **Decoupling Scenario** (250x speed).
 
 
 ## Table of Contents
